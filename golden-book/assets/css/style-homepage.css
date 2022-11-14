@@ -1,0 +1,380 @@
+body {
+  font-family: "Roboto Condensed", sans-serif, serif;
+  font-weight: 700;
+  background-image: url(/assets/images/signup-background.jpg);
+  background-position: center;
+  background-size: cover;
+  color: rgb(227, 217, 204);
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: linear-gradient(
+    rgb(227, 217, 204, 0.6),
+    rgba(255, 0, 0, 0)
+  );
+  height: 10vh;
+}
+
+.header-burger {
+  display: flex;
+  align-items: center;
+  margin-left: 2em;
+}
+
+.header-burger a i {
+  color: rgb(227, 217, 204);
+  margin-right: 2em;
+}
+.header-burger p {
+  font-size: 2em;
+}
+
+.user {
+  border: solid 1px rgb(227, 217, 204);
+  height: 1.5em;
+  width: 1.5em;
+  margin-right: 2rem;
+  background-color: rgb(227, 217, 204);
+  border-radius: 5px;
+}
+
+.user i {
+  padding: 0.4em 0.5em;
+  color: rgb(70, 66, 66);
+}
+
+.main-wrapper {
+  height: 80vh;
+  /* height: 87%; */
+  margin: 1em 6em;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  margin-top: 0px;
+}
+.inputs {
+  display: flex;
+  line-height: 3em;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.search {
+  position: relative;
+  flex-basis: 48%;
+}
+
+.search input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 5px 5px 0px 0px;
+  background-color: rgb(227, 217, 204);
+  outline: none;
+  padding: 0px 0px 0px 10px;
+}
+
+.search i {
+  position: absolute;
+  right: 0.5em;
+  color: rgb(70, 66, 66);
+  bottom: 0.9em;
+}
+.category {
+  flex-basis: 48%;
+}
+
+.category select {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 5px 5px 0px 0px;
+  background-color: rgb(227, 217, 204);
+  cursor: pointer;
+  outline: none;
+  padding: 0px 0px 0px 10px;
+  color: rgb(70, 66, 66);
+}
+
+.book-sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.articles {
+  display: flex;
+  margin-top: 1.5em;
+  padding: 1em;
+  border-radius: 5px;
+  width: 29%;
+  color: rgb(70, 66, 66);
+  background-color: rgb(227, 217, 204);
+  font-size: 0.7em;
+  align-items: center;
+}
+
+.articles h3 {
+  font-weight: 800;
+  font-size: 1.3em;
+}
+
+.articles p {
+  font-weight: 400;
+  margin: 1em;
+}
+
+.articles p strong {
+  font-weight: 800;
+}
+
+.articles a {
+  display: block;
+  width: 60%;
+  line-height: 20px;
+  border-radius: 5px;
+  background-color: rgb(70, 66, 66);
+  margin-left: 2em;
+  margin-top: 2em;
+  color: rgb(227, 217, 204);
+  text-decoration: none;
+  text-align: center;
+}
+.articles a:hover {
+  background-color: #000;
+}
+.pagination {
+  padding: 1em;
+  float: right;
+  padding: 1em;
+  font-weight: 400;
+  font-size: 0.7em;
+  color: rgb(227, 217, 204);
+}
+.pagination i {
+  color: rgb(227, 217, 204);
+  margin: 5px;
+}
+
+.pagination select {
+  border: none;
+  background-color: transparent;
+  color: rgb(227, 217, 204);
+  border-bottom: 1px solid;
+  outline: none;
+}
+.pagination select option {
+  background-color: rgb(70, 66, 66);
+}
+
+footer {
+  height: 6vh;
+  text-align: center;
+  padding-top: 5px;
+  font-weight: 400;
+  background-image: linear-gradient(
+    rgba(255, 0, 0, 0),
+    rgb(227, 217, 204, 0.6)
+  );
+}
+
+.main-wrapper-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.main-wrapper-homepage {
+  width: 100%;
+  margin: 1em 2em;
+}
+
+.navbar {
+  flex: 30%;
+  height: 75vh;
+  border-right: 2px solid rgb(227, 217, 204);
+}
+.navbar ul {
+  margin-top: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  height: 2em;
+  text-align: center;
+  width: 90%;
+  padding-top: 1em;
+}
+.navbar ul li:nth-child(2) {
+  background-color: rgb(227, 217, 204, 0.4);
+  border-right: solid 5px rgb(227, 217, 204);
+}
+
+a {
+  color: rgb(227, 217, 204);
+  text-decoration: none;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.square {
+  width: 20%;
+  height: 85%;
+  position: absolute;
+  top: 5.5em;
+  opacity: 0.4;
+  background-color: #000;
+  z-index: -1;
+}
+
+.main-book-preview {
+  display: flex;
+  padding: 0.5em 1em 1.5em 1.5em;
+  border-radius: 5px;
+  color: rgb(70, 66, 66);
+  background-color: rgb(227, 217, 204);
+  font-size: 1em;
+  align-items: baseline;
+  line-height: 1em;
+  font-weight: 400;
+}
+.book-title-image img {
+  width: 217px;
+  height: 332px;
+}
+
+.book-title-image h3 {
+  font-size: 1.5em;
+}
+.book-title-image {
+  margin-right: 1.5em;
+}
+
+.main-wrapper button {
+  justify-content: flex-end;
+  width: 25%;
+  margin-top: 3em;
+  float: right;
+  height: 8%;
+  border-radius: 5px;
+  background-color: rgb(97, 91, 91);
+  border: none;
+  color: rgb(227, 217, 204);
+  font-weight: 400;
+  font-size: 1em;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.main-wrapper button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 1.2em;
+  font-size: 1.2em;
+}
+
+.main-wrapper button:hover {
+  background-color: rgb(227, 217, 204);
+  color: rgb(97, 91, 91);
+}
+
+.main-wrapper button a:hover {
+  color: rgb(97, 91, 91);
+}
+
+.categories-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul.breadcrumb {
+  padding: 0px;
+}
+ul.breadcrumb li {
+  display: inline;
+}
+ul.breadcrumb li a {
+  font-size: 0.7em;
+  font-weight: 400;
+}
+.categories {
+  display: flex;
+  margin: 1em;
+  padding: 0em 2.5em;
+  border-radius: 5px;
+  color: rgb(70, 66, 66);
+  background-color: rgb(227, 217, 204);
+  font-size: 1em;
+  line-height: 2;
+  align-items: flex-end;
+}
+.categories p strong {
+  font-weight: 800;
+}
+.categories i {
+  padding: 0em 0em 1.5em;
+  margin-left: 1em;
+}
+@media (max-width: 900px) {
+  .articles {
+    flex: 35%;
+    margin: 1em;
+  }
+}
+
+@media (max-width: 800px) {
+  .search,
+  .category,
+  .articles,
+  .main-wrapper-navbar,
+  .main-wrapper-navbar ul li {
+    flex: 100%;
+    margin-top: 0.5em;
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .square {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-wrapper-navbar,
+  h1 {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+
+@media (max-width: 460px) {
+  .main-wrapper,
+  .categories-flex {
+    margin: 1em 10px;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 460px) {
+  .main-wrapper button {
+    width: inherit;
+  }
+}
+
+@media (max-width: 460px) {
+  .main-book-preview {
+    flex-direction: column;
+    align-items: center;
+  }
+}

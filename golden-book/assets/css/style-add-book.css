@@ -1,0 +1,94 @@
+body {
+  min-width: 100%;
+  min-height: 100%;
+  font-family: "Roboto Condensed", sans-serif, serif;
+  font-weight: 700;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  color: rgb(70, 66, 66);
+  margin: 0px;
+  background-color: rgb(227, 217, 204);
+}
+
+.display-none {
+  display: none;
+}
+
+#add-book-wrapper {
+  background-color: rgb(227, 217, 204);
+  padding: 20px;
+  min-height: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto Condensed", sans-serif, serif;
+  font-weight: 700;
+}
+#book-form {
+  padding-right: 50px;
+}
+.form-group {
+  position: relative;
+  flex-basis: 48%;
+}
+.form-group input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgb(70, 66, 66);
+  border-radius: 5px 5px 0px 0px;
+  background-color: rgb(227, 217, 204);
+  height: 30px;
+}
+
+.form-group select {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgb(70, 66, 66);
+  border-radius: 5px 5px 0px 0px;
+  background-color: rgb(227, 217, 204);
+  height: 30px;
+}
+
+.wrapper-two {
+  display: flex;
+  line-height: 3em;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#description {
+  width: 100%;
+  border: none;
+
+  background-color: rgb(227, 217, 204);
+  border-bottom: 2px rgb(70, 66, 66);
+}
+::placeholder {
+  color: rgb(70, 66, 66);
+  font-weight: bold;
+}
+
+#buttons input {
+  width: 5%;
+  margin-top: 3em;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(227, 217, 204);
+  border: none;
+  color: rgb(70, 66, 66);
+  font-weight: 400;
+  font-size: 1em;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding-left: 35px;
+}
+
+#buttons input:hover {
+  color: rgb(227, 217, 204);
+  background-color: rgb(70, 66, 66);
+}
+
+h1 {
+  margin-bottom: 7rem;
+}

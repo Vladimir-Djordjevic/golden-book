@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Vladimir Djordjevic" />
+    <meta name="keyword" content="Book store, Books" />
+    <meta name="description" content="List of books" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <title>Golden Book - Login</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/open-book.ico" />
+    <link rel="stylesheet" href="assets/css/style-index.css" />
+  </head>
+  <body>
+    <div class="square"></div>
+    <div class="page-wrapper">
+      <header class="header-wrapper">
+        <h1>Golden Book.</h1>
+      </header>
+      <div class="main-wrapper">
+        <h2>Login</h2>
+        <form action="homepage.html" id="apllyForm">
+          <input type="email" id="email" name="email" placeholder="Email" />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
+          <p>
+            Don't have have an account?
+            <span><a href="sign-up.html">Sign Up</a></span>
+          </p>
+          <button id="add-sign-up" type="submit" form="apllyForm">Login</button>
+        </form>
+      </div>
+
+      <footer class="footer">
+        <p>Angular Workshop 2022</p>
+      </footer>
+    </div>
+    <script src="assets/js/sign-login.js"></script>
+  </body>
+</html>
